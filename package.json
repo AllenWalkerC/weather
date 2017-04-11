@@ -1,0 +1,21 @@
+{
+  "name": "weather-csr",
+  "version": "1.0.8",
+  "description": "这是一个通过命令行获取天气的node工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "tianqi": "./index.js"
+  },
+  "keywords": [
+    "天气",
+    "weather"
+  ],
+  "author": "csr",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.3"
+  }
+}
